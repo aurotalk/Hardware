@@ -74,7 +74,7 @@ void loop() {
   //Obtendo a requisicao vinda do browser
   String req = client.readStringUntil('\r');
   
-  //Sugestao dada por Enrico Orlando
+  
   if(req == "GET /favicon.ico HTTP/1.1"){
       req = client.readStringUntil('\r');
   }
